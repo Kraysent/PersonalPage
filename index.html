@@ -1,5 +1,76 @@
+<html>
+
 <head>
-    Kraysent's personal page
-    <br>
-    Hi, these are my attemts into some simple web development.
+    <style>
+        html {
+            background-color: #0d1117;
+            height: 100%;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        .container {
+            height: 100%;
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+
+            margin-left: 20%;
+            margin-right: 20%;
+            
+            border-color: black;
+            border-width: 2px;
+            border-style: solid;
+            border-radius: 5px;
+
+            color: #79C0FF;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: larger;
+
+            background-color: #282e33;
+        }
+
+        .header {
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            margin: 1px;
+        }
+
+        .center {
+            flex: 1;
+            padding: 10px;
+        }
+
+        .footer {
+            height: 50px;
+            position: relative;
+            bottom: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            margin: 1px;
+        }
+    </style>
 </head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            Kraysent's personal page
+        </div>
+    
+        <div class="center">
+            GitHub: https://github.com/Kraysent
+        </div>
+
+        <div class="footer">
+            These are my attempts into some simple web development.
+        </div>
+    </div>
+</body>
+
+</html>
