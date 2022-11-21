@@ -1,74 +1,55 @@
 <html>
 
 <head>
-    <style>
-        html {
-            background-color: #0d1117;
-            height: 100%;
-            margin: 0;
-            overflow: hidden;
-        }
-
-        .container {
-            height: 100%;
-            width: 60%;
-            display: flex;
-            flex-direction: column;
-
-            margin-left: 20%;
-            margin-right: 20%;
-            
-            border-color: black;
-            border-width: 2px;
-            border-style: solid;
-            border-radius: 5px;
-
-            color: #79C0FF;
-            font-family: 'Courier New', Courier, monospace;
-            font-size: larger;
-
-            background-color: #282e33;
-        }
-
-        .header {
-            height: 50px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-
-            margin: 1px;
-        }
-
-        .center {
-            flex: 1;
-            padding: 10px;
-        }
-
-        .footer {
-            height: 50px;
-            position: relative;
-            bottom: 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-
-            margin: 1px;
-        }
-    </style>
+    <link rel="stylesheet" href="styles/global.css" />
+    <link rel="stylesheet" href="styles/central.css" />
+    <link rel="stylesheet" href="styles/left.css" />
 </head>
 
 <body>
-    <div class="container">
-        <div class="header">
-            Kraysent's personal page
-        </div>
-    
-        <div class="center">
-            GitHub: https://github.com/Kraysent
+    <div class="global-container">
+        <div class="left-container">
+            <div class="left-header">
+
+            </div>
+
+            <div class="left-center">
+                <div class="left-center-header">
+                    links
+                </div>
+
+                <div id="linksMenu" class="left-center-body">
+                    <ul class="left-center-body-list">
+                        <li>
+                            <a href="https://github.com/Kraysent">
+                                <img src="icons/github-dark-theme.png" class="icon" />GitHub
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="left-footer">
+
+            </div>
         </div>
 
-        <div class="footer">
-            These are my attempts into some simple web development.
+        <div class="center-container">
+            <div class="center-header">
+                Kraysent's personal page
+            </div>
+
+            <div class="center-center">
+
+            </div>
+
+            <div class="center-footer">
+                these are my attempts into some simple web development
+            </div>
+        </div>
+
+        <div class="right-container">
+
         </div>
     </div>
 </body>
