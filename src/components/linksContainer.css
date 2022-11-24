@@ -1,0 +1,23 @@
+.links-container {
+    margin: 5px;
+}
+
+.links-list {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--main-text);
+}
+
+.link:visited {
+    color: var(--main-text);
+}
+
+.icon {
+    width: 17px;
+    margin-left: 5px;
+    margin-right: 5px;
+}

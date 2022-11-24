@@ -1,0 +1,12 @@
+.content-container {
+    border-radius: 3px;
+
+    background-color: var(--primary);
+}
+
+.info-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
