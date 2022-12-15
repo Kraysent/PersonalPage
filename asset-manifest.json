@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/PersonalPage/static/css/main.35725ce0.css",
-    "main.js": "/PersonalPage/static/js/main.53ba96fa.js",
+    "main.css": "/PersonalPage/static/css/main.e185e076.css",
+    "main.js": "/PersonalPage/static/js/main.2ab99fbc.js",
+    "static/media/linkedin-dark-theme.png": "/PersonalPage/static/media/linkedin-dark-theme.66ffd29ac1bb3de67249.png",
     "index.html": "/PersonalPage/index.html",
-    "main.35725ce0.css.map": "/PersonalPage/static/css/main.35725ce0.css.map",
-    "main.53ba96fa.js.map": "/PersonalPage/static/js/main.53ba96fa.js.map"
+    "main.e185e076.css.map": "/PersonalPage/static/css/main.e185e076.css.map",
+    "main.2ab99fbc.js.map": "/PersonalPage/static/js/main.2ab99fbc.js.map"
   },
   "entrypoints": [
-    "static/css/main.35725ce0.css",
-    "static/js/main.53ba96fa.js"
+    "static/css/main.e185e076.css",
+    "static/js/main.2ab99fbc.js"
   ]
 }
