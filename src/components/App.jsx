@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import CenterContainer from "./centerContainer";
-import SideContainer from "./sideContainer";
-import EmptyContainer from "./emptyContainer";
-import LinksContainer from "./linksContainer";
+import CenterContainer from "components/centerContainer";
+import SideContainer from "components/sideContainer";
+import EmptyContainer from "components/emptyContainer";
+import LinksContainer from "components/linksContainer";
 
 class App extends Component {
     render() {

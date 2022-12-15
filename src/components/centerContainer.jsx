@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import ContentContainer from "./contentContainer";
-import './main.css';
-import './centerContainer.css'
+import ContentContainer from "components/contentContainer";
+import 'components/main.css';
+import 'components/centerContainer.css'
 
 class CenterContainer extends Component {
     render() {
