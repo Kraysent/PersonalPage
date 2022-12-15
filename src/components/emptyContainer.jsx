@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import './main.css';
+import 'components/main.css';
 
 class EmptyContainer extends Component {
     render() {

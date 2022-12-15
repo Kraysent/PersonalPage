@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import ContentContainer from "./contentContainer";
-import "./linksContainer.css";
-import gh from "../images/github-dark-theme.png";
-import linkedin from "../images/linkedin-dark-theme.png";
-import openInNewTab from "../commons";
+import ContentContainer from "components/contentContainer";
+import "components/linksContainer.css";
+import gh from "images/github-dark-theme.png";
+import linkedin from "images/linkedin-dark-theme.png";
+import openInNewTab from "commons";
 
 class LinksContainer extends Component {
     render() {
